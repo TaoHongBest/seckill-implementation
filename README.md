@@ -1,0 +1,1 @@
+# This is the implementation of seckill (Snap up) online shopping API

@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4db4ce12-52f3-408d-9bc2-e2ead025b91a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/TaoHongBest/seckill-implementation&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty &#10;First time to push local repository to github repository.">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="4db4ce12-52f3-408d-9bc2-e2ead025b91a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SuccessKilledDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SuccessKilledDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/dao/SeckillDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SeckillDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/dao/SuccessKilledDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SuccessKilledDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/entity/Seckill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/Seckill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/entity/SuccessKilled.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/SuccessKilled.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SeckillDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SeckillDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SuccessKilledDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SuccessKilledDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -154,6 +140,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="106" />
+          <entry key="md" value="86" />
           <entry key="txt" value="59" />
           <entry key="xml" value="883" />
         </counts>
@@ -161,6 +148,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="106" />
+          <entry key="Markdown" value="86" />
           <entry key="PLAIN_TEXT" value="59" />
           <entry key="SQL" value="20" />
           <entry key="XML" value="863" />
@@ -170,6 +158,7 @@
         <counts>
           <entry key="fxml" value="1" />
           <entry key="java" value="24" />
+          <entry key="md" value="1" />
           <entry key="properties" value="3" />
           <entry key="seckill" value="2" />
           <entry key="sql" value="1" />
@@ -182,6 +171,7 @@
         <counts>
           <entry key="Database Element" value="3" />
           <entry key="JAVA" value="24" />
+          <entry key="Markdown" value="1" />
           <entry key="Properties" value="3" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="26" />
@@ -197,13 +187,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-692">
+            <state relative-caret-position="-353">
               <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="69" selection-start-column="69" selection-end-column="69" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -278,6 +280,7 @@
         <option value="$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -369,7 +372,7 @@
     <property name="SearchEverywhereHistoryKey" value="insertSuccessKilled&#9;PSI&#9;JAVA://org.seckill.dao.SuccessKilledDao#insertSuccessKilled&#10;SuccessKilled&#9;FILE&#9;file:///Users/taohong/seckill/src/main/java/org/seckill/entity/SuccessKilled.java&#10;reduceNumber&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#reduceNumber&#10;queryById&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#queryById&#10;seckill&#9;FILE&#9;file:///Users/taohong/seckill/src/main/resources/mapper/SeckillDao.xml&#10;queryAll&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#queryAll&#10;myb&#9;FILE&#9;file:///Users/taohong/seckill/src/main/resources/mybatis-config.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536619249376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536620349709" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -556,7 +559,7 @@
       <workItem from="1536612718771" duration="193000" />
       <workItem from="1536612916126" duration="838000" />
       <workItem from="1536613884208" duration="3265000" />
-      <workItem from="1536618335459" duration="738000" />
+      <workItem from="1536618335459" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="Add enums">
       <created>1536600868579</created>
@@ -579,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536605136523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/TaoHongBest/seckill-implementation&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty &#10;First time to push local repository to github repository.">
+      <created>1536619332924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536619332925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -615,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102037000" />
+    <option name="totallyTimeSpent" value="102647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +640,7 @@
     <frame x="227" y="22" width="998" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35041842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35041842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" weight="0.3296875" />
       <window_info id="Image Layers" order="3" />
@@ -645,12 +655,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3283082" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32663316" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.4983845" weight="0.3277311" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.327787" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3069467" side_tool="true" weight="0.39915967" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32663316" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32663316" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.24161074" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956383" />
@@ -969,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-692">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -983,6 +986,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="69" selection-start-column="69" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
