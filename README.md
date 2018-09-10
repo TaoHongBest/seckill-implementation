@@ -1,1 +1,1 @@
-# This is the implementation of seckill (Snap up) online shopping API
+# This is the implementation of seckill (snap up) online shopping API
