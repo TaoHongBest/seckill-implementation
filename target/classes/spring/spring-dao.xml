@@ -21,7 +21,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springfr
         <!-- Not to commit automatically when closed -->
         <property name="autoCommitOnClose" value="false"/>
         <!-- Time since the failure of connection -->
-        <property name="checkoutTimeout" value="5000"/>
+        <property name="checkoutTimeout" value="2000"/>
         <!-- Times of attempts when failed to connect -->
         <property name="acquireRetryAttempts" value="2"/>
     </bean>

@@ -10,17 +10,17 @@ public interface SuccessKilledDao {
     /**
      * Insert buying log, able to filter duplicates
      *
-     * @param secKilledId
+     * @param seckillId
      * @param userPhone
      * @return the number of inserted columns. If 0, insertion failed
      */
-    int insertSuccessKilled(@Param("secKilledId") long secKilledId, @Param("userPhone") long userPhone);
+    int insertSuccessKilled(@Param("seckillId") long seckillId, @Param("userPhone") long userPhone);
 
     /**
      * Search SuccessKilled entity(containing Seckill entity) by secKillId, and return it
      *
-     * @param secKillId
+     * @param seckillId
      * @return
      */
-    SuccessKilled queryByIdWithSeckill(@Param("secKilledId") long secKilledId, @Param("userPhone") long userPhone);
+    SuccessKilled queryByIdWithSeckill(@Param("seckillId") long seckillId, @Param("userPhone") long userPhone);
 }
