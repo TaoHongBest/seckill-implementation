@@ -35,7 +35,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springfr
         <!-- Scan package of entity, use alias -->
         <property name="typeAliasesPackage" value="org.seckill.entity"/>
         <!-- Scan sql configuration file, aka xml file that mapper needs -->
-        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/SeckillDao.xml"/>
     </bean>
 
     <!-- Convention better than configuration -->
