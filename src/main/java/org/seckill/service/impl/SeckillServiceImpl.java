@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
@@ -69,6 +70,14 @@ public class SeckillServiceImpl implements SeckillService {
         return md5;
     }
 
+    @Transactional
+    /**
+     * Advantages of using annotation to control transaction:
+     * 1: Dev team have consistent convention，explicit coding style to annotate transaction method
+     * 2: Ensure minimum execution time of transaction method, do not insert other network operation, like PRC/HTTP Request/
+     * or separate them to the external of transaction methods
+     * 3: Not all methods need transaction, like only one edit operation, read-only, which do not need transaction control
+     */
     public SeckillExecution executeSeckill(long seckillId, long userPhone, String md5) throws SeckillException, SeckillCloseException, RepeatKillException {
         if (md5 == null || !md5.equals(getMD5(seckillId))) {
             throw new SeckillException("seckill data rewrite");
