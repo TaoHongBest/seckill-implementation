@@ -13,6 +13,8 @@ import org.seckill.exception.SeckillException;
 import org.seckill.service.SeckillService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
@@ -21,10 +23,16 @@ import java.util.List;
 /**
  * @author taohong on 09/09/2018
  */
+// Annotation typs: @Component @Service @Dao @Controller
+@Service
 public class SeckillServiceImpl implements SeckillService {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
+    // Inject Service dependency
+    @Autowired
     private SeckillDao seckillDao;
+    // Inject Service dependency
+    @Autowired
     private SuccessKilledDao successKilledDao;
 
     // Salt for md5, used to complicate password
