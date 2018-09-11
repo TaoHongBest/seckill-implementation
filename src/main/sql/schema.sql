@@ -3,7 +3,7 @@
 -- Create database
 # CREATE DATABASE seckill;
 # -- Use seckill
-USE seckill;
+# USE seckill;
 -- Create seckill table
 CREATE TABLE IF NOT EXISTS seckill (
   seckill_id  BIGINT       NOT NULL AUTO_INCREMENT
@@ -32,10 +32,10 @@ CREATE TABLE IF NOT EXISTS seckill (
 
 -- Initialize the data
 INSERT INTO seckill (name, number, start_time, end_time)
-VALUES ('2000元秒杀iPhone 8', 100, '2018-09-03 00:00:00', '2018-09-04 00:00:00'),
-       ('4000元秒杀iPhone X', 50, '2018-09-03 00:00:00', '2018-09-04 00:00:00'),
-       ('1000元秒杀iPhone 7', 100, '2018-09-03 00:00:00', '2018-09-04 00:00:00'),
-       ('500元秒杀iPhone 6s', 200, '2018-09-03 00:00:00', '2018-09-04 00:00:00');
+VALUES ('2000元秒杀iPhone 8', 100, '2018-09-11 00:00:00', '2018-09-30 00:00:00'),
+       ('4000元秒杀iPhone X', 50, '2018-09-11 00:00:00', '2018-09-30 00:00:00'),
+       ('1000元秒杀iPhone 7', 100, '2018-09-11 00:00:00', '2018-09-30 00:00:00'),
+       ('500元秒杀iPhone 6s', 200, '2018-09-11 00:00:00', '2018-09-30 00:00:00');
 
 -- Successful seckill table
 -- Info regarding user login authentication
@@ -54,6 +54,9 @@ CREATE TABLE success_killed (
   ENGINE InnoDB
   DEFAULT CHARSET = UTF8MB4
   COMMENT 'Successful seckill table';
+
+# DROP TABLE IF EXISTS success_killed;
+
 
 # -- Connecting to database console
 # mysql -u root -p
