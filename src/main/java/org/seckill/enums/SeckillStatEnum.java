@@ -1,7 +1,7 @@
 package org.seckill.enums;
 
 /**
- * Use enum to indict constant type
+ * Use enum to indicate constant type
  *
  * @author taohong on 10/09/2018
  */
