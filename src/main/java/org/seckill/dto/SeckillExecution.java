@@ -17,6 +17,16 @@ public class SeckillExecution {
     // The entity of SuccessKilled generates when execution succeeds
     private SuccessKilled successKilled;
 
+    @Override
+    public String toString() {
+        return "SeckillExecution{" +
+                "seckillId=" + seckillId +
+                ", state=" + state +
+                ", stateInfo='" + stateInfo + '\'' +
+                ", successKilled=" + successKilled +
+                '}';
+    }
+
     // If execution succeeds
     public SeckillExecution(long seckillId, SeckillStatEnum statEnum, SuccessKilled successKilled) {
         this.seckillId = seckillId;
