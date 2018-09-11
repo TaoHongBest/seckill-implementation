@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4db4ce12-52f3-408d-9bc2-e2ead025b91a" name="Default Changelist" comment="Add annotation to manage transactions">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" afterDir="false" />
+    <list default="true" id="4db4ce12-52f3-408d-9bc2-e2ead025b91a" name="Default Changelist" comment="Other system files auto-updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seckill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seckill.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/schema.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,7 +145,7 @@
           <entry key="java" value="2171" />
           <entry key="md" value="86" />
           <entry key="sql" value="19" />
-          <entry key="txt" value="434" />
+          <entry key="txt" value="722" />
           <entry key="xml" value="1441" />
         </counts>
       </usages-collector>
@@ -157,7 +153,7 @@
         <counts>
           <entry key="JAVA" value="2171" />
           <entry key="Markdown" value="86" />
-          <entry key="PLAIN_TEXT" value="434" />
+          <entry key="PLAIN_TEXT" value="722" />
           <entry key="SQL" value="39" />
           <entry key="XML" value="1421" />
         </counts>
@@ -220,8 +216,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="76" selection-end-line="76" />
+            <state relative-caret-position="98">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -543,7 +539,7 @@
     <property name="SearchEverywhereHistoryKey" value="RepeatKillException&#9;FILE&#9;file:///Users/taohong/IdeaProjects/seckill/src/main/java/org/seckill/exception/RepeatKillException.java&#10;insertSuccessKilled&#9;PSI&#9;JAVA://org.seckill.dao.SuccessKilledDao#insertSuccessKilled&#10;SuccessKilled&#9;FILE&#9;file:///Users/taohong/seckill/src/main/java/org/seckill/entity/SuccessKilled.java&#10;reduceNumber&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#reduceNumber&#10;queryById&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#queryById&#10;seckill&#9;FILE&#9;file:///Users/taohong/seckill/src/main/resources/mapper/SeckillDao.xml&#10;queryAll&#9;PSI&#9;JAVA://org.seckill.dao.SeckillDao#queryAll&#10;myb&#9;FILE&#9;file:///Users/taohong/seckill/src/main/resources/mybatis-config.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536679722977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536680611003" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -741,7 +737,7 @@
       <workItem from="1536620682923" duration="189000" />
       <workItem from="1536623717895" duration="7025000" />
       <workItem from="1536669679483" duration="2185000" />
-      <workItem from="1536671928988" duration="7024000" />
+      <workItem from="1536671928988" duration="7967000" />
     </task>
     <task id="LOCAL-00001" summary="Add enums">
       <created>1536600868579</created>
@@ -841,7 +837,35 @@
       <option name="project" value="LOCAL" />
       <updated>1536679596016</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="toString() method override">
+      <created>1536679744952</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536679744952</updated>
+    </task>
+    <task id="LOCAL-00016" summary="logback xml file implemented. Most of code from logback official configuration doc">
+      <created>1536679832083</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536679832083</updated>
+    </task>
+    <task id="LOCAL-00017" summary="database sql modified: altered the start time and end time to allow seckill">
+      <created>1536680148185</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536680148185</updated>
+    </task>
+    <task id="LOCAL-00018" summary="JUnit test completed. All passed.">
+      <created>1536680465695</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536680465695</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -877,7 +901,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119370000" />
+    <option name="totallyTimeSpent" value="120313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,11 +927,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1764706" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32633054" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.69224554" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.69224554" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27013424" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.26968175" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.4983845" weight="0.3277311" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.327787" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.30775446" side_tool="true" weight="0.2361809" />
@@ -1018,7 +1042,11 @@
     <MESSAGE value="Spring IoC" />
     <MESSAGE value="Configure transaction manager, and configure declarative transaction base on annotation" />
     <MESSAGE value="Add annotation to manage transactions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add annotation to manage transactions" />
+    <MESSAGE value="toString() method override" />
+    <MESSAGE value="logback xml file implemented. Most of code from logback official configuration doc" />
+    <MESSAGE value="database sql modified: altered the start time and end time to allow seckill" />
+    <MESSAGE value="JUnit test completed. All passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit test completed. All passed." />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1290,8 +1318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="76" selection-end-line="76" />
+        <state relative-caret-position="98">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
