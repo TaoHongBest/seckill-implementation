@@ -3,7 +3,7 @@ package org.seckill.dto;
 /**
  * @author taohong on 13/09/2018
  */
-// All ajax request-returning type. Package json result
+// All ajax request-returning types. Package json result
 public class SeckillResult<T> {
     private boolean success;
     private T data;

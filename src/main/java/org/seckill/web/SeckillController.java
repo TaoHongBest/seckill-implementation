@@ -7,7 +7,6 @@ import org.seckill.entity.Seckill;
 import org.seckill.enums.SeckillStatEnum;
 import org.seckill.exception.RepeatKillException;
 import org.seckill.exception.SeckillCloseException;
-import org.seckill.exception.SeckillException;
 import org.seckill.service.SeckillService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,7 +36,7 @@ public class SeckillController {
         List<Seckill> list = seckillService.getSeckillList();
         model.addAttribute("list", list);
         // Model is used toY place the rendering's attributes
-        // list.jsp + model = ModelAndView
+        // detail.jsp + model = ModelAndView
         return "list"; //WEB-INF/jsp/"list".jsp
     }
 
