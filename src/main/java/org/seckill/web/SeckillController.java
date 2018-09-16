@@ -29,13 +29,13 @@ public class SeckillController {
     @Autowired
     private SeckillService seckillService;
 
-    @RequestMapping(name = "/list", method = RequestMethod.GET)
+    @RequestMapping(value = "/list", method = RequestMethod.GET)
     public String list(Model model) {
         // Acquire list page
 
         List<Seckill> list = seckillService.getSeckillList();
         model.addAttribute("list", list);
-        // Model is used toY place the rendering's attributes
+        // Model is used to place the rendering's attributes
         // detail.jsp + model = ModelAndView
         return "list"; //WEB-INF/jsp/"list".jsp
     }
