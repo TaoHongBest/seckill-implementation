@@ -30,14 +30,14 @@ public class SeckillServiceTest {
     private SeckillService seckillService;
 
     @Test
-    public void getSeckillList() throws Exception {
+    public void getSeckillList() {
 //    public void getSeckillList() {
         List<Seckill> list = seckillService.getSeckillList();
         logger.info("list={}", list);
     }
 
     @Test
-    public void getById() throws Exception {
+    public void getById() {
 //    public void getById() {
         long id = 1000;
         Seckill seckill = seckillService.getById(id);
@@ -47,7 +47,7 @@ public class SeckillServiceTest {
 
     // Complete logic of integrated testing code, pay attention to the repeatable execution
     @Test
-    public void testSeckillLogic() throws Exception {
+    public void testSeckillLogic() {
         long id = 1001;
         Exposer exposer = seckillService.exportSeckillUrl(id);
         if (exposer.isExposed()) {
@@ -64,7 +64,6 @@ public class SeckillServiceTest {
         } else {
             // Seckill has not started yet
             logger.warn("exposer={}", exposer);
-
         }
     }
 }
