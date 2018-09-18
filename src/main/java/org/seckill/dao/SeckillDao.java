@@ -5,6 +5,7 @@ import org.seckill.entity.Seckill;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author taohong on 03/09/2018
@@ -36,4 +37,11 @@ public interface SeckillDao {
      */
     // Java does not store the name of formal parameter. It's like arg0, arg1, etc.
     List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+
+    /**
+     * Use data-storing procedure to execute seckill
+     *
+     * @param paramMap
+     */
+    void killByProcedure(Map<String, Object> paramMap);
 }

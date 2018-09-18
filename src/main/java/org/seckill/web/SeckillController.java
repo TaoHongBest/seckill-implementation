@@ -80,7 +80,8 @@ public class SeckillController {
             return new SeckillResult<SeckillExecution>(false, "Haven't Signed Up");
         }
         try {
-            SeckillExecution execution = seckillService.executeSeckill(seckillId, phone, md5);
+            // Call data-storing procedure
+            SeckillExecution execution = seckillService.executeSeckillProcedure(seckillId, phone, md5);
             return new SeckillResult<SeckillExecution>(true, execution);
         } catch (RepeatKillException e) {
             SeckillExecution execution = new SeckillExecution(seckillId, SeckillStatEnum.REPEAT_KILL);
