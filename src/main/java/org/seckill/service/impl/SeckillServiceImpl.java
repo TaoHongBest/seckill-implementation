@@ -99,18 +99,19 @@ public class SeckillServiceImpl implements SeckillService {
         // Execution of seckill logistic: stock reduction + buying record
         Date nowTime = new Date();
         try {
-            // Stock reduction
-            int updateCount = seckillDao.reduceNumber(seckillId, nowTime);
-            if (updateCount <= 0) {
-                // Log update failed, seckill has ended
-                throw new SeckillCloseException("seckill is closed");
+            // Record a buying
+            int insertCount = successKilledDao.insertSuccessKilled(seckillId, userPhone);
+            if (insertCount <= 0) {
+                // Repeated seckill
+                throw new RepeatKillException("seckill repeated");
             } else {
-                // Record a buying
-                int insertCount = successKilledDao.insertSuccessKilled(seckillId, userPhone);
-                if (insertCount <= 0) {
-                    // Repeated seckill
-                    throw new RepeatKillException("seckill repeated");
+                // Stock reduction, hot-spot goods competition
+                int updateCount = seckillDao.reduceNumber(seckillId, nowTime);
+                if (updateCount <= 0) {
+                    // Log update failed, seckill has ended, rollback
+                    throw new SeckillCloseException("seckill is closed");
                 } else {
+                    // Seckill succeed, commit
                     SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(seckillId, userPhone);
                     // Something about data dictionary
                     return new SeckillExecution(seckillId, SeckillStatEnum.SUCCESS, successKilled);
